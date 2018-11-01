@@ -1,0 +1,2 @@
+the value of false positive rate at 95% recall is :1.592
+AUC = 0.9906818100000001

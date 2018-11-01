@@ -49,7 +49,7 @@ class TripletPhotoTour(dset.PhotoTour):
             return inds
 
         triplets = []
-        indices = create_indices(labels)
+        indices = create_indices(labels.numpy())
         unique_labels = np.unique(labels.numpy())
         n_classes = unique_labels.shape[0]
         # add only unique indices in batch
@@ -139,7 +139,7 @@ def create_train_loaders(train_data,batch_size,n_pairs,augmentation,dataroot):
 
     return train_loader
 
-def create_test_loaders(test_data,batch_size):
+def create_test_loaders(test_data,batch_size,dataroot):
 
 
     transform = transforms.Compose([
