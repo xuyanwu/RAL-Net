@@ -9,4 +9,5 @@
 python RAL_Net.py --data-root=/mnt/Brain/wug/Brown_data/ --epochs=10 --batch-size=512 --n-pairs=5000000 --loss-type=RAL_loss --lr=10 --augmentation=True
 
 Result:
-
+Performance comparison on Brown daraset, lower score and perform better
+![](https://github.com/xuyanwu/RAL-Net/blob/master/Result/BROWN.PNG)
