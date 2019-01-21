@@ -10,4 +10,5 @@ python RAL_Net.py --data-root=/mnt/Brain/wug/Brown_data/ --epochs=10 --batch-siz
 
 Result:
 Performance comparison on Brown daraset, lower score and perform better
-<img src="https://github.com/xuyanwu/RAL-Net/blob/master/Result/BROWN.PNG" width="200">
+
+<img src="https://github.com/xuyanwu/RAL-Net/blob/master/Result/BROWN.PNG" width="800">
