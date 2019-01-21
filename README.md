@@ -4,7 +4,12 @@ This code is the ACCV2018 paper [Robust Angular Local Descriptor Learning](http:
 
 ## Enviromental built: 
 
-pytorch 0.4, opencv 3.4
+Please install python 3.6, pytorch 0.4.1, opencv 3.4
+
+pip install python==3.6
+
+conda install pytorch=0.4.1 cuda90 -c pytorch
+
 
 ## To replicate the result of this paper:
 
@@ -14,12 +19,12 @@ python RAL_Net.py --data-root=/mnt/Brain/wug/Brown_data/ --epochs=10 --batch-siz
 
 ### Performance comparison on Brown daraset, lower score and perform better
 
-<img src="https://github.com/xuyanwu/RAL-Net/blob/master/Result/BROWN.PNG" width="700">
+<img src="https://github.com/xuyanwu/RAL-Net/blob/master/Result/BROWN.PNG" width="600">
 
 ### Performance comparison on Hpatches daraset, Higher score and perform better
 
-<img src="https://github.com/xuyanwu/RAL-Net/blob/master/Result/Hpatches.PNG" width="700">
+<img src="https://github.com/xuyanwu/RAL-Net/blob/master/Result/Hpatches.PNG" width="600">
 
 ### Performance comparison on Wxbs daraset, Higher score and perform better
 
-<img src="https://github.com/xuyanwu/RAL-Net/blob/master/Result/Wxbs.PNG" width="700">
+<img src="https://github.com/xuyanwu/RAL-Net/blob/master/Result/Wxbs.PNG" width="600">
