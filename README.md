@@ -13,7 +13,7 @@ conda install pytorch=0.4.1 cuda90 -c pytorch
 
 ## To replicate the result of this paper:
 
-python RAL_Net.py --data-root=<<your data root>> --epochs=10 --batch-size=512 --n-pairs=5000000 --loss-type=RAL_loss --lr=10 --augmentation=True
+python RAL_Net.py --data-root=<<'your data root'>> --epochs=10 --batch-size=512 --n-pairs=5000000 --loss-type=RAL_loss --lr=10 --augmentation=True
 
 ## Result:
 
