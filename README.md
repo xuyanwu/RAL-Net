@@ -1,6 +1,6 @@
 ## RAL-Net
 
-This code is the ACCV2018 paper [Robust Angular Local Descriptor Learning](https://arxiv.org/pdf/1901.07076.pdf)
+This code is the implementation of our ACCV2018 paper [Robust Angular Local Descriptor Learning](https://arxiv.org/pdf/1901.07076.pdf)
 
 ## Enviromental built: 
 
@@ -17,14 +17,14 @@ python RAL_Net.py --data-root='your data root' --epochs=10 --batch-size=512 --n-
 
 ## Result:
 
-### Performance comparison on Brown daraset, lower score and perform better
+### Performance comparison on Brown dataset, lower score and perform better
 
 <img src="https://github.com/xuyanwu/RAL-Net/blob/master/Result/BROWN.PNG" width="600">
 
-### Performance comparison on Hpatches daraset, Higher score and perform better
+### Performance comparison on Hpatches dataset, Higher score and perform better
 
 <img src="https://github.com/xuyanwu/RAL-Net/blob/master/Result/Hpatches.PNG" width="600">
 
-### Performance comparison on Wxbs daraset, Higher score and perform better
+### Performance comparison on Wxbs dataset, Higher score and perform better
 
 <img src="https://github.com/xuyanwu/RAL-Net/blob/master/Result/Wxbs.PNG" width="600">
